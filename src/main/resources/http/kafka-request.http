@@ -1,0 +1,5 @@
+### Send first message to Kafka
+POST http://localhost:8080/api/v1/kafka/publish?message=HelloWorld1
+
+### Send second message to Kafka
+POST http://localhost:8080/api/v1/kafka/publish?message=HelloWorld2
